@@ -1,0 +1,225 @@
+/*Default Template*/
+
+.simple .qcpnd-single-list ul{
+	padding: 0 !important;
+	margin: 0px;
+	background-color: #ffffff;
+	
+	
+	margin: 0 0 50px;
+	width: 100%;
+}
+
+.simple .qcpnd-single-list ul li{
+    list-style: none;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+    border-top: 5px solid #f86960;
+	box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.simple .qcpnd-single-list h3 {
+  color: #262b35;
+  font-size: 17px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.simple .qcpnd-single-list ul{
+	
+}
+
+.simple .qcpnd-single-list ul li a {
+	border-bottom: 1px solid #e8e8e8 !important;
+  
+  color: #828282;
+  display: block;
+  padding: 13px 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 20px;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 0px #ffffff;
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=90, Color=#ffffff); 
+  position:relative;
+  display: flex;
+    align-items: center;
+  
+}
+
+.simple .qcpnd-single-list ul li a:hover {
+  background: #fafafa;
+  color: #f86960;
+  border-bottom: 1px solid #f86960 !important;
+}
+
+.simple .list-img{
+  display: inline-block !important;
+  margin-right: 10px;
+}
+
+.simple .list-img img{
+    width: 40px;
+    height: 40px;
+}
+
+/*Upvote Section*/
+.simple .upvote-section {
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  width: 30px;
+}
+
+.simple .upvote-btn:hover, .simple .ca-menu li:hover .upvote-btn{
+  cursor: pointer;
+  color: #81D742;
+}
+
+.simple .upvote-btn, .simple .upvote-count{
+  display: block;
+}
+
+.simple .upvote-btn {
+  display: inline-block;
+  height: 35px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  z-index: 805;
+}
+
+.simple .upvote-count {
+  font-size: 10px;
+  margin-top: 0px;
+  width: 100%;
+  z-index: 800;
+  line-height: 12px;
+}
+
+.simple .upvote-section .upvote-btn, .simple .upvote-section .upvote-count {
+  color: #828282;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.simple .upvote-section .upvote-btn:hover, .simple li:hover .upvote-btn, .simple li:hover .upvote-count{
+  color: #f86960;
+}
+
+/*RTL CSS*/
+.direction-rtl .qcpnd-single-list, .direction-rtl .qcpnd-single-list h3, .direction-rtl .qcpnd-single-list ul li, .direction-rtl .qcpnd-single-list ul li a, .qcpnd-single-list ul li span 
+{
+  /*direction: rtl !important;*/
+}
+
+.direction-rtl .simple .list-img {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.direction-rtl .upvote-section {
+  left: 10px !important;
+  right: auto !important;
+}
+
+/*TPL Fix*/
+.simple .upvote-section {
+  height: 50px;
+}
+
+.simple .upvote-btn {
+  height: 25px;
+  width: 32px;
+}
+#opd-list-holder .sbd_icon_section{    position: absolute;
+    right: 0px;
+    width: 23px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;padding-right: 5px;}
+#opd-list-holder .sbd_icon_section a:first-child{display:none;}
+#opd-list-holder .sbd_icon_section a{
+	border-bottom: 0px !important;
+    padding: 7px 0px;
+    font-size: 16px;}
+#opd-list-holder .sbd_icon_section a:hover{
+	background:unset !important;
+}
+
+#opd-list-holder .pd-bottom-area {
+	height: 28px;
+	border-bottom: 1px solid #ddd;
+	text-align: right;
+	max-width: 80%;
+	right: 0;
+	position: absolute;
+	border-left: 2px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+#opd-list-holder .pd-bottom-area a{
+	padding:0px !important;
+}
+.opd-column-3 .pd-bottom-area {
+	max-width: 90% !important;
+}
+
+#opd-list-holder .pd-bottom-area p{display: inline-block;
+   padding: 0px;}
+   
+#opd-list-holder .pd-bottom-area p a{padding: 0px 7px !important;
+    border-bottom: none !important;
+    font-size: 16px;}
+.pd_business_container{text-align:center;}
+.pd-bottom-area{text-align:right}
+
+.simple .top-address {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+@media only screen and (max-width : 1600px) {
+	#opd-list-holder .pd-bottom-area {
+		max-width: 93%;
+	}
+	.opd-column-3 .pd-bottom-area {
+		max-width: 100% !important;
+	}
+	#opd-list-holder .pd-bottom-area p a {	
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width : 1170px) {
+	#opd-list-holder .pd-bottom-area {
+		max-width: 100%;
+	}
+	#opd-list-holder .pd-bottom-area p a {
+		padding: 0px 5px !important;
+		
+	}
+}
+@media only screen and (max-width : 801px) {
+	#opd-list-holder .pd-bottom-area {
+		max-width: 100%;
+	}
+}
+
